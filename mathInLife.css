@@ -1,0 +1,123 @@
+.allContent__mathInLife {
+    display: none;
+    position: relative;
+    left: 70px;
+}
+
+
+.block__mathInLife div:first-child {
+    border-radius: 5% ;
+    border: 10px solid  khaki;
+    background-color: yellow;
+    margin: 20px auto;
+    max-width: 1600px;
+    padding-bottom: 100px;
+}
+
+.block__mathInLife h2 {
+    text-align: center;
+    font-size: 80px;
+    font-family: Gabriola;
+}
+
+.block__mathInLife h3 {
+    padding-left: 30px;
+    line-height: 80px;
+    font-size: 50px;
+    font-family: Gabriola;
+}
+
+
+.block__mathInLife div:nth-child(2) {
+    border-radius: 5% ;
+    border: 10px solid darkslateblue ;
+    background-color: lightgreen;
+    margin: 20px auto;
+    max-width: 1600px;
+    padding: 10px;
+}
+
+.block__mathInLife p {
+    line-height: 30px;
+    font-size: 50px;
+    font-family: Gabriola;
+}
+.block__mathInLife li {
+    font-size: 40px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+
+
+
+.block__mathInLife img {
+    width: 700px;
+    float: right;
+}
+
+
+.block__mathInLife div:nth-child(3) {
+    border-radius: 5% ;
+    border: 10px solid red;
+    background-color: bisque;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.thirdPicture {
+    width: 500px;
+    display: block;
+    margin: 0 1.5% 0 1.5%;
+}
+
+.whyToLearnMath {
+    font-weight: bold;
+}
+
+
+.block__mathInLife div:nth-child(4) {
+    border-radius: 5%;
+    border: 10px solid #5ec6eb ;
+    background-color: yellow;
+    margin: 50px auto;
+    max-width: 1600px;
+    padding: 10px;
+}
+
+.rounded {
+    counter-reset: li;
+    list-style: none;
+    font: 14px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 moccasin;
+}
+.rounded li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+}
+.rounded li:hover {background: lightpink;}
+.rounded li:hover:before {transform: rotate(360deg);}
+.rounded li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}

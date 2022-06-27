@@ -1,0 +1,379 @@
+body {
+    background: antiquewhite;
+
+}
+*{
+    box-sizing: border-box;
+}
+/* Здесь мы задаём задний фон на первой страничке */
+.mainBlock__greed {
+    background-color: antiquewhite;
+    animation: stars 40s linear infinite;
+    width: 100%;
+    height: 1200px;
+    overflow-y:hidden;  /*для вертикального*/
+    overflow-x:hidden;
+}
+.mainBlock__greed h1 {
+    display: block;
+    position: relative;
+    left: 550px;
+    z-index: 2;
+    font-size: 80px;
+}
+
+.mainBlock__greed p {
+    display: block;
+    position: relative;
+    left: 500px;
+    z-index: 2;
+    font-size: 40px;
+}
+
+.back {
+    display: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 0 ;
+    position: sticky;
+    top: 0;
+}
+.back:hover {
+    opacity: 0.7;
+}
+
+@keyframes stars {
+    0% { background-position:0 0 }
+    25% { background-position:0 100% }
+    50% { background-position:0 0 }
+    75% { background-position:0 -100% }
+    100% { background-position:0 0 }
+}
+
+.block__contentTest {
+    padding-top: 200px;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+/* Здесь мы работаем с элементами первой страницы */
+.block__greed {
+    margin: 0 auto;
+    color: white;
+    max-width: 1000px;
+    font-family: Gabriola;
+    position: relative;
+    bottom: 50px;
+}
+
+.block__greed p {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.block__greed__button {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.block__greed h1{
+    transition: 2s; /* Время эффекта */
+    text-align: center;
+}
+.block__greed h1:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.button {
+min-height: 60px;
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+text-transform: uppercase;
+letter-spacing: 1.3px;
+font-weight: 700;
+color: #313133;
+background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+border: none;
+border-radius: 1000px;
+box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+transition: all 0.3s ease-in-out 0s;
+cursor: pointer;
+outline: none;
+position: relative;
+padding: 10px;
+}
+
+.button::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+.button:hover::before, button:focus::before {
+    opacity: 1;
+}
+
+.button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 2s infinite;
+}
+
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+/* Здесь мы работаем с элементами для тестов */
+.block__contentTest {
+    display: none;
+}
+
+.block__test {
+    display: flex;
+}
+
+.block__test__choice {
+    border: 2px solid powderblue;
+    padding: 100px 200px;
+}
+
+.block__test__choice p {
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+h2{
+    padding: 16px;
+    text-align: center;
+    margin: 0;
+}
+.quiz-box{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    display: none;
+    margin-top: 300px;
+}
+.quiz-header{
+    padding: 64px;
+}
+
+.block__test__choice p {
+    font-size: 50px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+ul li{
+    font-size: 40px;
+    margin: 15px 0;
+}
+ul li label{
+    cursor: pointer;
+}
+
+button
+{
+    background-color: #5ec6eb;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #438faa;
+}
+button:focus{
+    outline: none;
+    background-color: #5ec6eb;
+}
+
+
+.quiz-box__two {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    display: none;
+}
+
+
+.block__answers {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    display: none;
+    margin-top: 300px;
+}
+
+.theQuestion {
+    text-align: center;
+    font-size: 30px;
+}
+.block__list__answers li {
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+/* Здесь мы работаем с блоками, где человек будет что то выбирать */
+
+
+.allContent__makeChoice {
+    display: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 50px ;
+    flex-wrap: wrap;
+}
+
+
+.blocks__choose {
+    padding: 4rem 15rem;
+    border: 3px solid #333333;
+    font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+    max-width: 240px;opacity:0;
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 1.5s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+
+.blocks__choose::before {
+    content: '';
+    border: 2px solid #353535;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.9deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+}
+
+.block__choose__test {
+    margin: 200px auto;
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+}
+
+@keyframes show{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.button__choose__test {
+    text-decoration: none;
+    display:block;
+    width: 400px;
+    height: 110px;
+    line-height: 45px;
+    border-radius: 45px;
+    border: 3px solid black;
+    font-family: URW Chancery L;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    position: relative;
+    right: 200px;
+}
+
+.button__choose__test:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+.allContent__makeChoice div:nth-child(1) {background-color: #8FD4C1}
+.allContent__makeChoice div:nth-child(2) {background-color: lightgreen}
+.allContent__makeChoice div:nth-child(3) {background-color: yellow}
+.allContent__makeChoice div:nth-child(4) {background-color: crimson}
+
+
+.helenPicture {
+    position: relative;
+    bottom: 180px;
+}
+
+
+@font-face {
+    font-family: "URW Chancery L";
+    src: url("Chancery Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

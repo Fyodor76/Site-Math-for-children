@@ -1,0 +1,318 @@
+
+
+.allContent__informationAboutMath {
+    display: none;
+    margin-top: 20px;
+}
+
+.blocks__informationAboutMath {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px
+}
+.blocks__withFacts {
+    max-width: 700px;
+    border: 3px solid #5ec6eb;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+.blocks__withFacts a {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blocks__withFacts p {
+    padding-top: 86px;
+    line-height: 31.5px;
+}
+
+.blocks__withFacts__two {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    font-family: URW Chancery L;
+    background-image: url("тетрадь.png") ;
+    padding: 0 20px;
+    border-radius: 5%;
+}
+.blocks__withFacts__two a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__two p {
+    line-height: 31.5px;
+    padding-top: 18px;
+}
+
+.blocks__withFacts__three {
+    max-width: 700px;
+    border: 3px solid #2EE59D;
+    background-color: lightgreen ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    min-height: 700px;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+.blocks__withFacts__three p {
+   line-height: 31.5px;
+    padding-top: 10px;
+}
+
+.blocks__withFacts__three a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__four {
+    max-width: 700px;
+    border: 3px solid red;
+    background-color: lightpink ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    min-height: 700px;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+.blocks__withFacts__four a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__four p {
+    padding: 10px;
+    line-height: 31.5px;
+}
+
+
+.blocks__withFacts__five {
+    max-width: 700px;
+    border: 3px solid #5ec6eb;
+    background-color: powderblue;
+    padding: 0 20px;
+    border-radius: 5%;
+    font-family: URW Chancery L;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__five a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__five p {
+    line-height: 31.5px;
+    padding-top: 150px;
+}
+
+
+
+.blocks__withFacts__six {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    background-color: navajowhite ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__six a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__six p {
+    line-height: 31.5px;
+    padding-top: 10px;
+}
+
+.blocks__withFacts__seven {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    background-color: lightgreen ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__seven a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__seven p {
+    line-height: 31.5px;
+    padding-top: 10px;
+}
+
+.blocks__withFacts__eight {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    background-color: lightpink ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__eight a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__eight p {
+    line-height: 31.5px;
+    padding-top: 10px;
+}
+
+
+.blocks__withFacts__nine {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    background-color: powderblue ;
+    padding: 0 20px;
+    font-family: URW Chancery L;
+    border-radius: 5%;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__nine a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__nine p {
+    line-height: 31.5px;
+    padding-top: 15px;
+}
+
+.blocks__withFacts__ten {
+    max-width: 700px;
+    border: 3px solid goldenrod;
+    background-color: navajowhite;
+    padding: 0 20px;
+    border-radius: 5%;
+    font-family: URW Chancery L;
+    background-image: url("тетрадь.png") ;
+}
+
+.blocks__withFacts__ten a {
+    font-size:35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.blocks__withFacts__ten p {
+    line-height: 31.5px;
+    padding-top: 15px;
+}
+
+
+h2 {
+    font-family: Gabriola;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.block__chooseCertainInformation a {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blocks__informationAboutMath p {
+    font-size: 28px;
+}
+
+.blocks__informationAboutMath img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    float:left;
+    margin: 4px 10px 2px 0;
+}
+
+@font-face {
+    font-family: "URW Chancery L";
+    src: url("Chancery Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.blocks__informationAboutMath div {
+    display: none;
+}
+
+
+.block__chooseCertainInformation {
+    max-width: 1200px;
+    border: 3px solid #5ec6eb;
+    padding: 0 20px;
+    border-radius: 5%;
+    background-image: url("тетрадьДва.png") ;
+}
+
+
+
+.block__chooseCertainInformation div {
+    padding: 0;
+    margin: 0 70px 90px 70px;
+    color: black;
+    font-weight: bold;
+}
+.block__chooseCertainInformation div:first-child {
+    margin: 30px 70px 100px 70px;
+    color: black;
+    font-weight: bold;
+}
+
+.block__chooseCertainInformation div:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: #00AAFF;
+}
+
+
+.sideBarChoice {
+    display: none;
+    height: 100px;
+    position: relative;
+    right: 600px;
+}
+
+.sideBarChoice a {
+    font-size: 22px;
+    text-decoration: underline black;
+}
+
+.sideBarChoice div {
+    margin-bottom: 20px ;
+}
+
+.sideBarChoice a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: #00AAFF;
+}
+
+
+
+
+
+
