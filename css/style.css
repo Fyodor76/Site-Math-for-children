@@ -14,21 +14,7 @@ body {
     overflow-y:hidden;  /*для вертикального*/
     overflow-x:hidden;
 }
-.mainBlock__greed h1 {
-    display: block;
-    position: relative;
-    left: 550px;
-    z-index: 2;
-    font-size: 80px;
-}
 
-.mainBlock__greed p {
-    display: block;
-    position: relative;
-    left: 500px;
-    z-index: 2;
-    font-size: 40px;
-}
 
 .back {
     display: none;
@@ -193,10 +179,10 @@ h2{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 600px;
-    overflow: hidden;
+    min-width: 1000px;
     display: none;
     margin-top: 300px;
+
 }
 .quiz-header{
     padding: 64px;
@@ -209,6 +195,7 @@ h2{
 ul{
     list-style: none;
     padding: 0;
+    min-width: 1000px;
 
 }
 ul li{
@@ -219,8 +206,19 @@ ul li label{
     cursor: pointer;
 }
 
-button
-{
+.block__test {
+    min-width: 1000px;
+    position: relative;
+    left: 200px;
+    flex-wrap: wrap;
+}
+.quiz-box {
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+button {
     background-color: #5ec6eb;
     border: none;
     display: block;
@@ -241,22 +239,20 @@ button:focus{
     background-color: #5ec6eb;
 }
 
-
 .quiz-box__two {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 600px;
-    overflow: hidden;
+   min-width: 1000px;
     display: none;
 }
 
 
 .block__answers {
+    min-width: 1000px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 600px;
     overflow: hidden;
     display: none;
     margin-top: 300px;
@@ -272,8 +268,6 @@ button:focus{
 }
 
 /* Здесь мы работаем с блоками, где человек будет что то выбирать */
-
-
 .allContent__makeChoice {
     display: none;
     gap: 20px;
@@ -318,6 +312,7 @@ button:focus{
     margin: 200px auto;
     border-width: 3px 4px 3px 5px;
     border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+
 }
 
 @keyframes show{
@@ -327,6 +322,9 @@ button:focus{
     100% {
         opacity:1;
     }
+}
+.helenInTest {
+    display: none;
 }
 
 .button__choose__test {

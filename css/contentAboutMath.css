@@ -17,7 +17,7 @@
     padding: 0 20px;
     font-family: URW Chancery L;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 .blocks__withFacts a {
     padding-top: 50px;
@@ -34,7 +34,7 @@
     max-width: 700px;
     border: 3px solid goldenrod;
     font-family: URW Chancery L;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
     padding: 0 20px;
     border-radius: 5%;
 }
@@ -57,7 +57,7 @@
     font-family: URW Chancery L;
     min-height: 700px;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 .blocks__withFacts__three p {
    line-height: 31.5px;
@@ -78,7 +78,7 @@
     font-family: URW Chancery L;
     min-height: 700px;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 .blocks__withFacts__four a {
     font-size:35px;
@@ -99,7 +99,7 @@
     padding: 0 20px;
     border-radius: 5%;
     font-family: URW Chancery L;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__five a {
@@ -122,7 +122,7 @@
     padding: 0 20px;
     font-family: URW Chancery L;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__six a {
@@ -143,7 +143,7 @@
     padding: 0 20px;
     font-family: URW Chancery L;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__seven a {
@@ -164,7 +164,7 @@
     padding: 0 20px;
     font-family: URW Chancery L;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__eight a {
@@ -186,7 +186,7 @@
     padding: 0 20px;
     font-family: URW Chancery L;
     border-radius: 5%;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__nine a {
@@ -207,7 +207,7 @@
     padding: 0 20px;
     border-radius: 5%;
     font-family: URW Chancery L;
-    background-image: url("тетрадь.png") ;
+    background-image: url("../img/тетрадь-min.png") ;
 }
 
 .blocks__withFacts__ten a {
@@ -250,7 +250,7 @@ h2 {
 
 @font-face {
     font-family: "URW Chancery L";
-    src: url("Chancery Regular.ttf") format("truetype");
+    src: url("../img/Chancery Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -265,7 +265,7 @@ h2 {
     border: 3px solid #5ec6eb;
     padding: 0 20px;
     border-radius: 5%;
-    background-image: url("тетрадьДва.png") ;
+    background-image: url("../img/тетрадьДва-min.png") ;
 }
 
 
@@ -311,6 +311,20 @@ h2 {
     color: #00AAFF;
 }
 
+@media (min-width: 500px) {
+    .sideBarChoice {
+       position: relative;
+        left: 800px;
+        top: 300px;
+    }
+
+    .block__chooseCertainInformation  {
+        background-image: url("../img/white-min.jpg");
+    }
+    .blocks__informationAboutMath div {
+        background-image: url("../img/white-min.jpg");
+    }
+}
 
 
 

@@ -1,4 +1,5 @@
 const buttonChoice = document.getElementById('choiceOfTest')
+const pictureHelen = document.querySelector(".helenInTest")
 const blockTest = document.getElementById('block__test')
 const firstTest = document.getElementById('first')
 const secondTest = document.getElementById('second')
@@ -36,6 +37,7 @@ buttonChooseTest.addEventListener('click', () => {
 
 
 buttonChoice.addEventListener('click', () => {
+    pictureHelen.style.display = 'block'
     if (firstTest.checked) {
         quiz.style.display = 'inline'
         blockTest.style.display = 'none'

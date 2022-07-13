@@ -496,6 +496,7 @@ function func (data) {
     }
 
     submit.addEventListener('click', () => {
+        pictureHelen.style.display = 'none'
         const answer = getSelected();
 
         if (answer) {

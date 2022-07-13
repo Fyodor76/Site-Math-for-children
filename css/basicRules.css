@@ -61,4 +61,11 @@
 .block__withExamples ul:nth-child(3) { border: 3px solid goldenrod;
     background-color: navajowhite ;}
 
+@media (max-width: 380px) {
+    .allContent__rules {
+        max-width: 800px;
+    }
+
+}
+
 

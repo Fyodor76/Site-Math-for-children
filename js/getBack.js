@@ -12,6 +12,7 @@ back.addEventListener('click', () => {
     quiz.style.display = 'none'
     blockBasicRules.style.display = 'none'
     sideBarChoice.style.display = 'none'
+    pictureHelen.style.display = 'none'
     allBlocksWithFacts.forEach((element, id) => {
         element.style.display = 'none'
     })
